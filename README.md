@@ -17,9 +17,9 @@ Other reference for `how to use multipass`
 Please use **lower** case for the VM's name. It will be used by hostname and upper case may cause some problem in k8s.
 
 ```bash
-multipass launch 22.04 -c 2 -m 4G -d 16G -n microcloud-1
-multipass launch 22.04 -c 2 -m 4G -d 16G -n microcloud-2
-multipass launch 22.04 -c 2 -m 4G -d 16G -n microcloud-3
+multipass launch 22.04 -c 2 -m 4G -d 16G -n microcloud1
+multipass launch 22.04 -c 2 -m 4G -d 16G -n microcloud2
+multipass launch 22.04 -c 2 -m 4G -d 16G -n microcloud3
 multipass list
 multipass shell microcloud-1
 ```
