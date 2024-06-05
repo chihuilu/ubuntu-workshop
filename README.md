@@ -21,7 +21,7 @@ multipass launch 22.04 -c 2 -m 4G -d 16G -n microcloud1
 multipass launch 22.04 -c 2 -m 4G -d 16G -n microcloud2
 multipass launch 22.04 -c 2 -m 4G -d 16G -n microcloud3
 multipass list
-multipass shell microcloud-1
+multipass shell microcloud1
 ```
 After enter the virtual machine, please verify the network
 ```bash
