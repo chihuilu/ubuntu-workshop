@@ -114,7 +114,7 @@ lxc config set core.https_address=:8443
 
 2. Enable the UI
 ```bash
-sudo snap set lxd ui.enable=false
+sudo snap set lxd ui.enable=true
 sudo systemctl reload snap.lxd.daemon
 ```
 
