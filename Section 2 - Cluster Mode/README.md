@@ -11,7 +11,7 @@ It's more reasonable to install MicroCloud on three physical machines with in sa
 
 If you use Ubuntu, you can create three virtual machines by [LXD](https://documentation.ubuntu.com/lxd/en/latest/tutorial/first_steps/)
 
-### Prepare 3 Virtual Machines
+### Prepare 3 Virtual Machines by LXD
 
 ```bash
 # Create a ZFS storage pool called disks
